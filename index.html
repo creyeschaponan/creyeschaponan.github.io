@@ -1,0 +1,910 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Cristian Reyes Chapoñan – Full Stack Developer Senior. Especialista en JavaScript, Node.js, Laravel, React, Vue.js, C# y Cloud. +9 años de experiencia creando soluciones digitales innovadoras.">
+  <meta name="keywords" content="Full Stack Developer, Node.js, Laravel, React, JavaScript, Cristian Reyes, Desarrollador Web">
+  <meta name="author" content="Cristian Reyes Chapoñan">
+
+  <meta property="og:title" content="Cristian Reyes – Full Stack Developer Senior">
+  <meta property="og:description" content="Portafolio profesional de Cristian Reyes Chapoñan. +9 años creando sistemas web, APIs y aplicaciones móviles.">
+  <meta property="og:type" content="website">
+
+  <title>Cristian Reyes | Full Stack Developer Senior</title>
+
+  <!-- Fonts & Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/devicon.min.css">
+  <link rel="stylesheet" href="css/style.css">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🚀</text></svg>">
+</head>
+<body>
+
+  <!-- =========== NAVBAR =========== -->
+  <nav class="navbar" id="navbar">
+    <div class="container">
+      <a href="#" class="nav-logo">CR<span>.dev</span></a>
+      <div class="nav-links" id="navLinks">
+        <a href="#about">Sobre Mí</a>
+        <a href="#skills">Skills</a>
+        <a href="#experience">Experiencia</a>
+        <a href="#projects">Proyectos</a>
+        <a href="#certifications">Certificaciones</a>
+        <a href="#contact" class="nav-cta">Contacto</a>
+      </div>
+      <div class="nav-toggle" id="navToggle">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+  </nav>
+
+  <!-- =========== HERO =========== -->
+  <section class="hero" id="hero">
+    <canvas id="particles-canvas"></canvas>
+    <div class="hero-bg-gradient"></div>
+    <div class="hero-bg-gradient-2"></div>
+
+    <div class="container">
+      <div class="hero-content">
+        <div class="hero-badge">
+          <span class="pulse-dot"></span>
+          Disponible para nuevos proyectos
+        </div>
+
+        <p class="hero-greeting">&gt; Hola, mi nombre es</p>
+        <h1 class="hero-title">
+          Cristian Reyes
+          <br>
+          <span class="gradient-text">Chapoñan.</span>
+        </h1>
+        <p class="hero-role">
+          Full Stack Developer &mdash; <span class="typing-text" id="typingText"></span>
+        </p>
+        <p class="hero-description">
+          Ingeniero en Computación e Informática con <strong>+9 años de experiencia</strong> 
+          construyendo sistemas web escalables, APIs robustas y soluciones digitales innovadoras 
+          que transforman procesos empresariales.
+        </p>
+
+        <div class="hero-buttons">
+          <a href="#projects" class="btn btn-primary">
+            <i class="fas fa-rocket"></i> Ver Proyectos
+          </a>
+          <a href="#contact" class="btn btn-outline">
+            <i class="fas fa-envelope"></i> Hablemos
+          </a>
+        </div>
+
+        <div class="hero-social">
+          <a href="https://www.linkedin.com/in/creyeschaponan/" target="_blank" rel="noopener" aria-label="LinkedIn">
+            <i class="fab fa-linkedin-in"></i>
+          </a>
+          <a href="https://github.com/creyeschaponan" target="_blank" rel="noopener" aria-label="GitHub">
+            <i class="fab fa-github"></i>
+          </a>
+          <a href="mailto:creyeschaponan@gmail.com" aria-label="Email">
+            <i class="fas fa-envelope"></i>
+          </a>
+        </div>
+      </div>
+
+      <div class="hero-visual">
+        <div class="hero-avatar-wrapper">
+          <div class="hero-avatar-ring"></div>
+          <img src="profile.jpg" alt="Cristian Reyes Chapoñan" class="hero-avatar">
+          <div class="hero-float-card card-1">
+            <div class="card-icon">⚡</div>
+            <div class="card-label">Experiencia</div>
+            <div class="card-value">+9 Años</div>
+          </div>
+          <div class="hero-float-card card-2">
+            <div class="card-icon">🚀</div>
+            <div class="card-label">Proyectos</div>
+            <div class="card-value">+15 Entregados</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =========== ABOUT =========== -->
+  <section class="section about" id="about">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-label">// Conóceme</span>
+        <h2 class="section-title">Sobre Mí</h2>
+        <p class="section-subtitle">Apasionado por la tecnología y la innovación digital</p>
+      </div>
+
+      <div class="about-grid">
+        <div class="about-text reveal">
+          <p>
+            Soy <strong>Cristian Rolando Reyes Chapoñan</strong>, Bachiller en Ingeniería en 
+            Computación e Informática por la <strong>Universidad Nacional Pedro Ruíz Gallo</strong>. 
+            Desde 2016 me he dedicado profesionalmente al desarrollo de software, especializándome 
+            en soluciones full stack que abarcan desde sistemas de facturación electrónica hasta 
+            plataformas de comunicación en tiempo real.
+          </p>
+          <p>
+            He trabajado en empresas como <strong>Atento S.A.</strong>, donde actualmente lidero el 
+            desarrollo de la plataforma <strong>OneTalk</strong>, un chat omnicanal desplegado en 
+            múltiples países de Latinoamérica. Mi experiencia incluye gestión documental con firma 
+            digital, sistemas de inventario, facturación electrónica y soluciones cloud con AWS y Azure.
+          </p>
+          <p>
+            Mi enfoque se centra en crear código limpio, arquitecturas escalables y experiencias 
+            de usuario excepcionales. Constantemente estoy aprendiendo y adaptándome a las 
+            nuevas tecnologías, porque creo que la innovación es la clave del éxito.
+          </p>
+
+          <div class="about-info">
+            <div class="about-info-item">
+              <i class="fas fa-map-marker-alt"></i>
+              <span>Chiclayo, Perú</span>
+            </div>
+            <div class="about-info-item">
+              <i class="fas fa-language"></i>
+              <span>Español (Nativo) · Inglés (Avanzado – UNPRG)</span>
+            </div>
+            <div class="about-info-item">
+              <i class="fas fa-graduation-cap"></i>
+              <span>Bach. Ing. Computación e Informática – UNPRG</span>
+            </div>
+            <div class="about-info-item">
+              <i class="fas fa-briefcase"></i>
+              <span>Analista Desarrollador en Atento S.A.</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="about-stats reveal reveal-delay-2">
+          <div class="stat-card">
+            <div class="stat-number" data-target="9">0</div>
+            <div class="stat-label">Años de Experiencia</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-number" data-target="15">0</div>
+            <div class="stat-label">Proyectos Entregados</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-number" data-target="4">0</div>
+            <div class="stat-label">Países con Deploy</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-number" data-target="9">0</div>
+            <div class="stat-label">Certificaciones</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =========== SKILLS =========== -->
+  <section class="section skills" id="skills">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-label">// Tecnologías</span>
+        <h2 class="section-title">Stack Técnico</h2>
+        <p class="section-subtitle">Herramientas y lenguajes que domino para construir soluciones completas</p>
+      </div>
+
+      <div class="skills-categories">
+
+        <!-- Frontend -->
+        <div class="skill-category reveal reveal-delay-1">
+          <div class="skill-category-header">
+            <div class="skill-category-icon"><i class="fas fa-palette"></i></div>
+            <h3 class="skill-category-title">Frontend</h3>
+          </div>
+          <div class="skill-tags">
+            <span class="skill-tag advanced"><i class="devicon-html5-plain"></i> HTML5</span>
+            <span class="skill-tag advanced"><i class="devicon-css3-plain"></i> CSS3</span>
+            <span class="skill-tag advanced"><i class="devicon-javascript-plain"></i> JavaScript</span>
+            <span class="skill-tag advanced"><i class="devicon-typescript-plain"></i> TypeScript</span>
+            <span class="skill-tag advanced"><i class="devicon-react-original"></i> React</span>
+            <span class="skill-tag advanced"><i class="devicon-vuejs-plain"></i> Vue.js</span>
+          </div>
+        </div>
+
+        <!-- Backend -->
+        <div class="skill-category reveal reveal-delay-2">
+          <div class="skill-category-header">
+            <div class="skill-category-icon"><i class="fas fa-server"></i></div>
+            <h3 class="skill-category-title">Backend</h3>
+          </div>
+          <div class="skill-tags">
+            <span class="skill-tag advanced"><i class="devicon-nodejs-plain"></i> Node.js</span>
+            <span class="skill-tag advanced"><i class="devicon-express-original"></i> Express.js</span>
+            <span class="skill-tag advanced"><i class="devicon-php-plain"></i> PHP</span>
+            <span class="skill-tag advanced"><i class="devicon-laravel-original"></i> Laravel</span>
+            <span class="skill-tag advanced"><i class="devicon-csharp-plain"></i> C#</span>
+            <span class="skill-tag advanced"><i class="devicon-nestjs-original"></i> NestJS</span>
+          </div>
+        </div>
+
+        <!-- Databases -->
+        <div class="skill-category reveal reveal-delay-3">
+          <div class="skill-category-header">
+            <div class="skill-category-icon"><i class="fas fa-database"></i></div>
+            <h3 class="skill-category-title">Bases de Datos</h3>
+          </div>
+          <div class="skill-tags">
+            <span class="skill-tag advanced"><i class="devicon-mysql-plain"></i> MySQL</span>
+            <span class="skill-tag advanced"><i class="devicon-postgresql-plain"></i> PostgreSQL</span>
+            <span class="skill-tag advanced"><i class="devicon-microsoftsqlserver-plain"></i> SQL Server</span>
+          </div>
+        </div>
+
+        <!-- DevOps & Cloud -->
+        <div class="skill-category reveal reveal-delay-4">
+          <div class="skill-category-header">
+            <div class="skill-category-icon"><i class="fas fa-cloud"></i></div>
+            <h3 class="skill-category-title">DevOps & Cloud</h3>
+          </div>
+          <div class="skill-tags">
+            <span class="skill-tag advanced"><i class="devicon-amazonwebservices-plain-wordmark"></i> AWS</span>
+            <span class="skill-tag advanced"><i class="devicon-azure-plain"></i> Azure</span>
+            <span class="skill-tag advanced"><i class="devicon-git-plain"></i> Git</span>
+            <span class="skill-tag advanced"><i class="devicon-github-original"></i> GitHub</span>
+            <span class="skill-tag advanced"><i class="devicon-bitbucket-original"></i> Bitbucket</span>
+            <span class="skill-tag advanced"><i class="devicon-linux-plain"></i> Linux</span>
+          </div>
+        </div>
+
+        <!-- Mobile & Others -->
+        <div class="skill-category reveal reveal-delay-5">
+          <div class="skill-category-header">
+            <div class="skill-category-icon"><i class="fas fa-mobile-alt"></i></div>
+            <h3 class="skill-category-title">Mobile & Otros</h3>
+          </div>
+          <div class="skill-tags">
+            <span class="skill-tag advanced"><i class="devicon-flutter-plain"></i> FlutterFlow</span>
+            <span class="skill-tag advanced"><i class="devicon-dart-plain"></i> Dart</span>
+            <span class="skill-tag advanced"><i class="devicon-xamarin-original"></i> Xamarin</span>
+            <span class="skill-tag advanced"><i class="fas fa-shield-alt"></i> Firma Digital</span>
+            <span class="skill-tag advanced"><i class="fas fa-key"></i> HSM / Token Crypto</span>
+          </div>
+        </div>
+
+        <!-- Methodologies -->
+        <div class="skill-category reveal reveal-delay-6">
+          <div class="skill-category-header">
+            <div class="skill-category-icon"><i class="fas fa-project-diagram"></i></div>
+            <h3 class="skill-category-title">Metodologías</h3>
+          </div>
+          <div class="skill-tags">
+            <span class="skill-tag advanced"><i class="fas fa-sync-alt"></i> Scrum</span>
+            <span class="skill-tag advanced"><i class="fas fa-infinity"></i> DevOps</span>
+            <span class="skill-tag advanced"><i class="fas fa-code-branch"></i> CI/CD</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- =========== EXPERIENCE =========== -->
+  <section class="section experience" id="experience">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-label">// Trayectoria</span>
+        <h2 class="section-title">Experiencia Profesional</h2>
+        <p class="section-subtitle">Mi recorrido construyendo soluciones digitales en el mundo real</p>
+      </div>
+
+      <div class="timeline">
+
+        <!-- Atento -->
+        <div class="timeline-item current reveal">
+          <div class="timeline-dot"></div>
+          <div class="timeline-date">Enero 2022 – Actualmente</div>
+          <div class="timeline-card">
+            <h3 class="timeline-role">Analista Desarrollador</h3>
+            <p class="timeline-company">Atento S.A.</p>
+            <p class="timeline-description">
+              Desarrollo y mantenimiento de la plataforma de chat omnicanal <strong>OneTalk</strong>, 
+              desplegada en Perú, Colombia, Argentina y Chile. Responsable de la arquitectura frontend 
+              y backend, integración de APIs y orquestación de servicios en tiempo real para la 
+              operación Atento SUR.
+            </p>
+            <div class="timeline-tech">
+              <span>Node.js</span>
+              <span>JavaScript</span>
+              <span>C#</span>
+              <span>SQL Server</span>
+              <span>Azure</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Peru Secure -->
+        <div class="timeline-item reveal reveal-delay-1">
+          <div class="timeline-dot"></div>
+          <div class="timeline-date">Enero 2019 – Diciembre 2021</div>
+          <div class="timeline-card">
+            <h3 class="timeline-role">Analista Desarrollador</h3>
+            <p class="timeline-company">Peru Secure E-Net S.A.C</p>
+            <p class="timeline-description">
+              Desarrollo de plataformas de facturación electrónica (<strong>eDocs</strong>) y gestión 
+              documental con firma digital y electrónica (<strong>eTrust</strong>). Implementación de 
+              soluciones de seguridad criptográfica con HSM Luna y tokens criptográficos.
+            </p>
+            <div class="timeline-tech">
+              <span>PHP</span>
+              <span>Laravel</span>
+              <span>MySQL</span>
+              <span>Firma Digital</span>
+              <span>HSM</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Envases San Nicolas -->
+        <div class="timeline-item reveal reveal-delay-2">
+          <div class="timeline-dot"></div>
+          <div class="timeline-date">Julio 2017 – Abril 2018</div>
+          <div class="timeline-card">
+            <h3 class="timeline-role">Encargado del Área de Sistemas</h3>
+            <p class="timeline-company">Envases San Nicolás S.A.C</p>
+            <p class="timeline-description">
+              Liderazgo del área de sistemas. Desarrollo de múltiples sistemas internos: seguimiento 
+              de pedidos, producción, etiquetado de sacos de polipropileno y sistema de inventarios. 
+              Responsable de la infraestructura tecnológica de la empresa.
+            </p>
+            <div class="timeline-tech">
+              <span>PHP</span>
+              <span>Laravel</span>
+              <span>MySQL</span>
+              <span>Linux</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Actibyte -->
+        <div class="timeline-item reveal reveal-delay-3">
+          <div class="timeline-dot"></div>
+          <div class="timeline-date">Septiembre 2016 – Junio 2017</div>
+          <div class="timeline-card">
+            <h3 class="timeline-role">Analista – Desarrollador</h3>
+            <p class="timeline-company">Actibyte S.A.C.</p>
+            <p class="timeline-description">
+              Desarrollo de sistemas web a medida para clientes empresariales. Creación de sistemas 
+              de facturación, cotización y gestión comercial. Primer rol profesional como desarrollador 
+              de software.
+            </p>
+            <div class="timeline-tech">
+              <span>PHP</span>
+              <span>JavaScript</span>
+              <span>MySQL</span>
+              <span>HTML/CSS</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- =========== PROJECTS =========== -->
+  <section class="section projects" id="projects">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-label">// Portafolio</span>
+        <h2 class="section-title">Proyectos Destacados</h2>
+        <p class="section-subtitle">Soluciones reales que he diseñado, desarrollado y desplegado</p>
+      </div>
+
+      <div class="projects-grid">
+
+        <!-- OneTalk -->
+        <div class="project-card reveal">
+          <div class="project-card-header">
+            <div class="project-gradient g1">💬</div>
+          </div>
+          <div class="project-card-body">
+            <span class="project-type">Platform · Chat Omnicanal</span>
+            <h3 class="project-title">OneTalk – Atento SUR</h3>
+            <p class="project-desc">
+              Plataforma de chat omnicanal desplegada en 4 países de Latinoamérica. 
+              Gestión de operaciones de atención al cliente en tiempo real para múltiples operaciones.
+            </p>
+            <div class="project-tech-stack">
+              <span>Node.js</span>
+              <span>C#</span>
+              <span>Azure</span>
+              <span>WebSockets</span>
+            </div>
+            <div class="project-links">
+              <a href="https://onetalk.atento.com.pe" target="_blank" class="project-link">
+                <i class="fas fa-external-link-alt"></i> Demo
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- eTrust -->
+        <div class="project-card reveal reveal-delay-1">
+          <div class="project-card-header">
+            <div class="project-gradient g2">🔐</div>
+          </div>
+          <div class="project-card-body">
+            <span class="project-type">Enterprise · Firma Digital</span>
+            <h3 class="project-title">eTrust – Gestor Documental</h3>
+            <p class="project-desc">
+              Sistema de gestión documental con firma digital y electrónica. Certificación y validación 
+              de documentos con estándares de seguridad criptográfica.
+            </p>
+            <div class="project-tech-stack">
+              <span>PHP</span>
+              <span>Laravel</span>
+              <span>HSM Luna</span>
+              <span>Crypto</span>
+            </div>
+            <div class="project-links">
+              <a href="https://etrust.pe/gestordocumental/" target="_blank" class="project-link">
+                <i class="fas fa-external-link-alt"></i> Demo
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- eDocs -->
+        <div class="project-card reveal reveal-delay-2">
+          <div class="project-card-header">
+            <div class="project-gradient g3">📄</div>
+          </div>
+          <div class="project-card-body">
+            <span class="project-type">Enterprise · Facturación</span>
+            <h3 class="project-title">eDocs – Facturación Electrónica</h3>
+            <p class="project-desc">
+              Plataforma de facturación electrónica conforme a los estándares de SUNAT. 
+              Emisión, consulta y gestión de comprobantes de pago electrónicos.
+            </p>
+            <div class="project-tech-stack">
+              <span>PHP</span>
+              <span>Laravel</span>
+              <span>MySQL</span>
+              <span>SUNAT API</span>
+            </div>
+            <div class="project-links">
+              <a href="http://edocs.pe/facturador/" target="_blank" class="project-link">
+                <i class="fas fa-external-link-alt"></i> Demo
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Cotizador NEO -->
+        <div class="project-card reveal reveal-delay-3">
+          <div class="project-card-header">
+            <div class="project-gradient g4">💰</div>
+          </div>
+          <div class="project-card-body">
+            <span class="project-type">Web App · Cotizaciones</span>
+            <h3 class="project-title">Cotizador – NEO Consulting</h3>
+            <p class="project-desc">
+              Sistema de cotización para la consultora NEO Consulting. Generación automatizada 
+              de presupuestos con módulos de administración y reportes.
+            </p>
+            <div class="project-tech-stack">
+              <span>PHP</span>
+              <span>JavaScript</span>
+              <span>MySQL</span>
+            </div>
+            <div class="project-links">
+              <a href="http://cotizador.neo.com.pe/admin/login" target="_blank" class="project-link">
+                <i class="fas fa-external-link-alt"></i> Demo
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Sistema CVI -->
+        <div class="project-card reveal reveal-delay-4">
+          <div class="project-card-header">
+            <div class="project-gradient g5">📦</div>
+          </div>
+          <div class="project-card-body">
+            <span class="project-type">Web App · Inventario</span>
+            <h3 class="project-title">Sistema CVI – Compras, Ventas, Almacén</h3>
+            <p class="project-desc">
+              Sistema integral de gestión de inventarios con módulos de compras, ventas y 
+              almacén. Control completo del ciclo de vida de productos.
+            </p>
+            <div class="project-tech-stack">
+              <span>PHP</span>
+              <span>Laravel</span>
+              <span>MySQL</span>
+              <span>Bootstrap</span>
+            </div>
+            <div class="project-links">
+              <a href="https://github.com/creyeschaponan/sistema-cvi" target="_blank" class="project-link">
+                <i class="fab fa-github"></i> Código
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Facturador Trigo Limpio -->
+        <div class="project-card reveal reveal-delay-5">
+          <div class="project-card-header">
+            <div class="project-gradient g6">🧾</div>
+          </div>
+          <div class="project-card-body">
+            <span class="project-type">Enterprise · Facturación</span>
+            <h3 class="project-title">Facturador – Agrícola Trigo Limpio</h3>
+            <p class="project-desc">
+              Sistema de facturación y comprobantes de pago para empresa agrícola. 
+              Generación de reportes y control de documentos tributarios.
+            </p>
+            <div class="project-tech-stack">
+              <span>PHP</span>
+              <span>MySQL</span>
+              <span>SUNAT</span>
+            </div>
+            <div class="project-links">
+              <a href="http://comprobantes.agricolatrigolimpio.com/" target="_blank" class="project-link">
+                <i class="fas fa-external-link-alt"></i> Demo
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- MisMedicamentos Bot -->
+        <div class="project-card reveal">
+          <div class="project-card-header">
+            <div class="project-gradient g2">💊</div>
+          </div>
+          <div class="project-card-body">
+            <span class="project-type">Bot · Telegram · AI</span>
+            <h3 class="project-title">MisMedicamentos – Bot Telegram</h3>
+            <p class="project-desc">
+              Bot de Telegram con IA para analizar recetas médicas y agendar recordatorios 
+              automáticos de medicamentos. Integración con Gemini AI y Supabase.
+            </p>
+            <div class="project-tech-stack">
+              <span>Node.js</span>
+              <span>Gemini AI</span>
+              <span>Supabase</span>
+              <span>Telegram API</span>
+            </div>
+            <div class="project-links">
+              <a href="https://github.com/creyeschaponan/mismedicamentos" target="_blank" class="project-link">
+                <i class="fab fa-github"></i> Código
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Pomodoro App -->
+        <div class="project-card reveal reveal-delay-1">
+          <div class="project-card-header">
+            <div class="project-gradient g4">⏱️</div>
+          </div>
+          <div class="project-card-body">
+            <span class="project-type">Mobile · Productividad</span>
+            <h3 class="project-title">Pomodoro App</h3>
+            <p class="project-desc">
+              Aplicación de productividad Pomodoro desarrollada en React Native. 
+              Temporizador configurable con gestión de sesiones de trabajo y descanso.
+            </p>
+            <div class="project-tech-stack">
+              <span>React Native</span>
+              <span>JavaScript</span>
+              <span>Expo</span>
+            </div>
+            <div class="project-links">
+              <a href="https://github.com/creyeschaponan/pomodoro-app" target="_blank" class="project-link">
+                <i class="fab fa-github"></i> Código
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- ECommerce ShopCart -->
+        <div class="project-card reveal reveal-delay-2">
+          <div class="project-card-header">
+            <div class="project-gradient g1">🛒</div>
+          </div>
+          <div class="project-card-body">
+            <span class="project-type">Web App · E-Commerce</span>
+            <h3 class="project-title">E-Commerce ShopCart</h3>
+            <p class="project-desc">
+              Tienda en línea con carrito de compras funcional elaborada en React.js. 
+              Gestión de productos, carrito dinámico y flujo de compra completo.
+            </p>
+            <div class="project-tech-stack">
+              <span>React.js</span>
+              <span>JavaScript</span>
+              <span>CSS</span>
+            </div>
+            <div class="project-links">
+              <a href="https://github.com/creyeschaponan/ecommerce-shopcart" target="_blank" class="project-link">
+                <i class="fab fa-github"></i> Código
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- DonameApp -->
+        <div class="project-card reveal reveal-delay-3">
+          <div class="project-card-header">
+            <div class="project-gradient g5">🩸</div>
+          </div>
+          <div class="project-card-body">
+            <span class="project-type">Desktop · Salud</span>
+            <h3 class="project-title">DonameApp – Donación de Sangre</h3>
+            <p class="project-desc">
+              Aplicación de escritorio para gestionar donaciones de sangre. Registro de 
+              donantes, tipos de sangre y seguimiento de campañas de donación.
+            </p>
+            <div class="project-tech-stack">
+              <span>C#</span>
+              <span>.NET</span>
+              <span>SQL Server</span>
+            </div>
+            <div class="project-links">
+              <a href="https://github.com/creyeschaponan/DonameApp" target="_blank" class="project-link">
+                <i class="fab fa-github"></i> Código
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Crossfit WOD API -->
+        <div class="project-card reveal reveal-delay-4">
+          <div class="project-card-header">
+            <div class="project-gradient g3">🏋️</div>
+          </div>
+          <div class="project-card-body">
+            <span class="project-type">API · REST · Best Practices</span>
+            <h3 class="project-title">Crossfit WOD API</h3>
+            <p class="project-desc">
+              API RESTful para gestión de entrenamientos Crossfit WOD, desarrollada 
+              siguiendo buenas prácticas de arquitectura, documentación y testing.
+            </p>
+            <div class="project-tech-stack">
+              <span>Node.js</span>
+              <span>Express</span>
+              <span>REST API</span>
+            </div>
+            <div class="project-links">
+              <a href="https://github.com/creyeschaponan/crossfit-wod-api" target="_blank" class="project-link">
+                <i class="fab fa-github"></i> Código
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Tic Tac Toe React -->
+        <div class="project-card reveal reveal-delay-5">
+          <div class="project-card-header">
+            <div class="project-gradient g6">🎮</div>
+          </div>
+          <div class="project-card-body">
+            <span class="project-type">Web App · Juego · React</span>
+            <h3 class="project-title">Tic Tac Toe – React</h3>
+            <p class="project-desc">
+              Juego clásico de Tres en Raya desarrollado en React.js. Lógica de juego completa 
+              con detección de ganador, historial de movimientos y diseño responsivo.
+            </p>
+            <div class="project-tech-stack">
+              <span>React.js</span>
+              <span>JavaScript</span>
+              <span>CSS</span>
+            </div>
+            <div class="project-links">
+              <a href="https://github.com/creyeschaponan/tic-tac-toe-react" target="_blank" class="project-link">
+                <i class="fab fa-github"></i> Código
+              </a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- =========== CERTIFICATIONS =========== -->
+  <section class="section certifications" id="certifications">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-label">// Aprendizaje continuo</span>
+        <h2 class="section-title">Certificaciones</h2>
+        <p class="section-subtitle">Formación constante en las tecnologías más demandadas</p>
+      </div>
+
+      <div class="certs-grid">
+
+        <div class="cert-card reveal">
+          <span class="cert-provider"><i class="fab fa-google"></i> Google</span>
+          <h3 class="cert-name">Agile Project Management</h3>
+          <span class="cert-date">Abril 2026</span>
+          <a href="#" class="cert-link">
+            Verificar <i class="fas fa-arrow-right"></i>
+          </a>
+        </div>
+
+        <div class="cert-card reveal reveal-delay-1">
+          <span class="cert-provider"><i class="fab fa-google"></i> Google</span>
+          <h3 class="cert-name">Technical Support Fundamentals</h3>
+          <span class="cert-date">Enero 2026</span>
+          <a href="#" class="cert-link">
+            Verificar <i class="fas fa-arrow-right"></i>
+          </a>
+        </div>
+
+        <div class="cert-card reveal reveal-delay-2">
+          <span class="cert-provider"><i class="fas fa-brain"></i> DeepLearning.AI</span>
+          <h3 class="cert-name">AI For Everyone</h3>
+          <span class="cert-date">Julio 2025</span>
+          <a href="https://coursera.org/verify/CNN18R2BIO0S" target="_blank" class="cert-link">
+            Verificar <i class="fas fa-arrow-right"></i>
+          </a>
+        </div>
+
+        <div class="cert-card reveal reveal-delay-3">
+          <span class="cert-provider"><i class="fas fa-code"></i> Udemy</span>
+          <h3 class="cert-name">NestJS + Microservicios</h3>
+          <span class="cert-date">Agosto 2024</span>
+          <a href="#" class="cert-link">
+            Verificar <i class="fas fa-arrow-right"></i>
+          </a>
+        </div>
+
+        <div class="cert-card reveal reveal-delay-4">
+          <span class="cert-provider"><i class="fab fa-react"></i> Meta</span>
+          <h3 class="cert-name">React Basics</h3>
+          <span class="cert-date">Mayo 2024</span>
+          <a href="https://coursera.org/verify/SUMZT5LG659Z" target="_blank" class="cert-link">
+            Verificar <i class="fas fa-arrow-right"></i>
+          </a>
+        </div>
+
+        <div class="cert-card reveal reveal-delay-5">
+          <span class="cert-provider"><i class="fab fa-meta"></i> Meta</span>
+          <h3 class="cert-name">Programming with JavaScript</h3>
+          <span class="cert-date">Abril 2024</span>
+          <a href="https://coursera.org/verify/6YH3XW6K6YY7" target="_blank" class="cert-link">
+            Verificar <i class="fas fa-arrow-right"></i>
+          </a>
+        </div>
+
+        <div class="cert-card reveal reveal-delay-6">
+          <span class="cert-provider"><i class="fab fa-meta"></i> Meta</span>
+          <h3 class="cert-name">Version Control</h3>
+          <span class="cert-date">Mayo 2024</span>
+          <a href="https://coursera.org/verify/QU5CNDXGRCS2" target="_blank" class="cert-link">
+            Verificar <i class="fas fa-arrow-right"></i>
+          </a>
+        </div>
+
+        <div class="cert-card reveal">
+          <span class="cert-provider"><i class="fas fa-university"></i> University of Michigan</span>
+          <h3 class="cert-name">Building Web Applications in PHP</h3>
+          <span class="cert-date">Febrero 2024</span>
+          <a href="https://coursera.org/verify/CBBAXHV6EDQS" target="_blank" class="cert-link">
+            Verificar <i class="fas fa-arrow-right"></i>
+          </a>
+        </div>
+
+        <div class="cert-card reveal reveal-delay-1">
+          <span class="cert-provider"><i class="fab fa-aws"></i> Amazon Web Services</span>
+          <h3 class="cert-name">AWS Fundamentals: Going Cloud-Native</h3>
+          <span class="cert-date">Abril 2021</span>
+          <a href="https://coursera.org/verify/9RKJH89652B3" target="_blank" class="cert-link">
+            Verificar <i class="fas fa-arrow-right"></i>
+          </a>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- =========== CONTACT =========== -->
+  <section class="section contact" id="contact">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-label">// Conectemos</span>
+        <h2 class="section-title">Contáctame</h2>
+        <p class="section-subtitle">¿Tienes un proyecto en mente? ¡Hablemos!</p>
+      </div>
+
+      <div class="contact-grid">
+        <div class="contact-info reveal">
+          <h3>Trabajemos juntos</h3>
+          <p>
+            Estoy abierto a oportunidades freelance, colaboraciones y proyectos innovadores. 
+            Si buscas un desarrollador comprometido que aporte valor real, no dudes en escribirme.
+          </p>
+
+          <div class="contact-methods">
+            <a href="mailto:creyeschaponan@gmail.com" class="contact-method">
+              <div class="contact-method-icon">
+                <i class="fas fa-envelope"></i>
+              </div>
+              <div class="contact-method-info">
+                <span class="contact-method-label">Email</span>
+                <span class="contact-method-value">creyeschaponan@gmail.com</span>
+              </div>
+            </a>
+
+            <a href="tel:+51976380729" class="contact-method">
+              <div class="contact-method-icon">
+                <i class="fas fa-phone-alt"></i>
+              </div>
+              <div class="contact-method-info">
+                <span class="contact-method-label">Teléfono</span>
+                <span class="contact-method-value">+51 976 380 729</span>
+              </div>
+            </a>
+
+            <a href="https://www.linkedin.com/in/creyeschaponan/" target="_blank" class="contact-method">
+              <div class="contact-method-icon">
+                <i class="fab fa-linkedin-in"></i>
+              </div>
+              <div class="contact-method-info">
+                <span class="contact-method-label">LinkedIn</span>
+                <span class="contact-method-value">linkedin.com/in/creyeschaponan</span>
+              </div>
+            </a>
+
+            <a href="https://github.com/creyeschaponan" target="_blank" class="contact-method">
+              <div class="contact-method-icon">
+                <i class="fab fa-github"></i>
+              </div>
+              <div class="contact-method-info">
+                <span class="contact-method-label">GitHub</span>
+                <span class="contact-method-value">github.com/creyeschaponan</span>
+              </div>
+            </a>
+          </div>
+        </div>
+
+        <form class="contact-form reveal reveal-delay-2" id="contactForm">
+          <div class="form-group">
+            <label for="name">Nombre</label>
+            <input type="text" id="name" name="name" placeholder="Tu nombre completo" required>
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="tu@email.com" required>
+          </div>
+          <div class="form-group">
+            <label for="subject">Asunto</label>
+            <input type="text" id="subject" name="subject" placeholder="¿En qué puedo ayudarte?">
+          </div>
+          <div class="form-group">
+            <label for="message">Mensaje</label>
+            <textarea id="message" name="message" placeholder="Cuéntame sobre tu proyecto..." required></textarea>
+          </div>
+          <button type="submit" class="form-submit">
+            <i class="fas fa-paper-plane"></i> Enviar Mensaje
+          </button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- =========== FOOTER =========== -->
+  <footer class="footer">
+    <div class="container">
+      <p class="footer-text">
+        &copy; 2025 Cristian Reyes Chapoñan. Diseñado con <span>&hearts;</span> y mucho código.
+      </p>
+      <div class="footer-links">
+        <a href="https://www.linkedin.com/in/creyeschaponan/" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+        <a href="https://github.com/creyeschaponan" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+        <a href="mailto:creyeschaponan@gmail.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
