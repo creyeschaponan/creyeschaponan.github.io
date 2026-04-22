@@ -415,10 +415,6 @@ ul { list-style: none; }
   font-weight: 300;
   color: var(--text-secondary);
   margin-bottom: 24px;
-  min-height: 2.4em;
-  display: flex;
-  align-items: flex-start;
-  flex-wrap: wrap;
 }
 
 .hero-role .typing-text {
@@ -1370,6 +1366,18 @@ ul { list-style: none; }
 
   .section-header {
     margin-bottom: 48px;
+  }
+
+  .hero-role {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .hero-role .typing-text {
+    display: block;
+    min-height: 1.5em;
+    margin-top: 4px;
   }
 }
 
