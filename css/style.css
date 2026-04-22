@@ -415,6 +415,10 @@ ul { list-style: none; }
   font-weight: 300;
   color: var(--text-secondary);
   margin-bottom: 24px;
+  min-height: 2.4em;
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: wrap;
 }
 
 .hero-role .typing-text {
@@ -436,6 +440,7 @@ ul { list-style: none; }
   line-height: 1.8;
   margin-bottom: 36px;
   max-width: 520px;
+  text-align: justify;
 }
 
 .hero-buttons {
@@ -627,6 +632,8 @@ ul { list-style: none; }
   color: var(--text-secondary);
   margin-bottom: 20px;
   font-size: 1.05rem;
+  line-height: 1.8;
+  text-align: justify;
 }
 
 .about-text p strong {
@@ -875,6 +882,7 @@ ul { list-style: none; }
   font-size: 0.92rem;
   color: var(--text-secondary);
   line-height: 1.7;
+  text-align: justify;
 }
 
 .timeline-tech {
