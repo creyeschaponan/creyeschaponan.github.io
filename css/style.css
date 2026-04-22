@@ -415,6 +415,9 @@ ul { list-style: none; }
   font-weight: 300;
   color: var(--text-secondary);
   margin-bottom: 24px;
+  line-height: 1.4;
+  height: 5em;
+  overflow: hidden;
 }
 
 .hero-role .typing-text {
@@ -423,6 +426,10 @@ ul { list-style: none; }
   border-right: 2px solid var(--accent-2);
   padding-right: 4px;
   animation: blink-caret 0.8s step-end infinite;
+  display: inline-block;
+  line-height: 1.4;
+  vertical-align: top;
+  min-height: 1.4em;
 }
 
 @keyframes blink-caret {
@@ -1333,19 +1340,65 @@ ul { list-style: none; }
     display: flex;
   }
 
+  .hero {
+    padding-top: 100px;
+    padding-bottom: 40px;
+    min-height: auto;
+  }
+
   .hero-avatar-wrapper {
-    width: 240px;
-    height: 240px;
+    width: 220px;
+    height: 220px;
   }
 
   .hero-avatar {
-    width: 240px;
-    height: 240px;
-    font-size: 4rem;
+    width: 220px;
+    height: 220px;
   }
 
   .hero-float-card {
     display: none;
+  }
+
+  .hero-role {
+    font-size: 1.1rem;
+    height: 5em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2px;
+  }
+
+  .hero-role .typing-text {
+    display: inline-block;
+    min-width: 140px;
+    text-align: center;
+  }
+
+  .hero-description {
+    font-size: 0.95rem;
+    text-align: center;
+    max-width: 100%;
+    padding: 0 10px;
+  }
+
+  .hero-title {
+    font-size: 2.2rem;
+    letter-spacing: -1px;
+  }
+
+  .hero-greeting {
+    font-size: 0.9rem;
+  }
+
+  .hero-badge {
+    font-size: 0.8rem;
+    padding: 6px 16px;
+    margin-bottom: 20px;
+  }
+
+  .hero-buttons {
+    margin-bottom: 32px;
   }
 
   .skills-categories {
@@ -1364,26 +1417,59 @@ ul { list-style: none; }
     grid-template-columns: repeat(2, 1fr);
   }
 
+  .about-text p {
+    text-align: center;
+  }
+
+  .about-info {
+    align-items: center;
+  }
+
   .section-header {
     margin-bottom: 48px;
   }
 
-  .hero-role {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  .timeline::before {
+    left: 0;
   }
 
-  .hero-role .typing-text {
-    display: block;
-    min-height: 1.5em;
-    margin-top: 4px;
+  .timeline-item {
+    padding-left: 36px;
+  }
+
+  .timeline-description {
+    text-align: left;
   }
 }
 
 @media (max-width: 480px) {
+  .hero {
+    padding-top: 90px;
+  }
+
   .hero-title {
-    font-size: 2rem;
+    font-size: 1.8rem;
+    letter-spacing: -0.5px;
+  }
+
+  .hero-role {
+    font-size: 1rem;
+    height: 4.5em;
+  }
+
+  .hero-description {
+    font-size: 0.9rem;
+    line-height: 1.7;
+  }
+
+  .hero-avatar-wrapper {
+    width: 180px;
+    height: 180px;
+  }
+
+  .hero-avatar {
+    width: 180px;
+    height: 180px;
   }
 
   .hero-buttons {
@@ -1398,6 +1484,22 @@ ul { list-style: none; }
 
   .stat-number {
     font-size: 2rem;
+  }
+
+  .stat-card {
+    padding: 20px;
+  }
+
+  .skill-category {
+    padding: 24px;
+  }
+
+  .timeline-card {
+    padding: 20px;
+  }
+
+  .project-card-body {
+    padding: 20px;
   }
 
   .contact-form {

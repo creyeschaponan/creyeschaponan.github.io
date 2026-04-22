@@ -205,11 +205,10 @@ function initTypingEffect() {
   if (!element) return;
 
   const roles = [
-    'Full Stack Developer',
     'Node.js Expert',
+    'React Developer',
     'Laravel Specialist',
     'Cloud Architect',
-    'React Developer',
     'C# Developer',
     'DevOps Enthusiast',
     'Problem Solver'
@@ -224,7 +223,7 @@ function initTypingEffect() {
     const currentRole = roles[roleIndex];
 
     if (isDeleting) {
-      element.textContent = currentRole.substring(0, charIndex - 1);
+      element.textContent = currentRole.substring(0, charIndex - 1) || '\u00A0';
       charIndex--;
       typingSpeed = 40;
     } else {
@@ -234,7 +233,6 @@ function initTypingEffect() {
     }
 
     if (!isDeleting && charIndex === currentRole.length) {
-      // Pause at end of word
       typingSpeed = 2000;
       isDeleting = true;
     } else if (isDeleting && charIndex === 0) {
